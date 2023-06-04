@@ -1,0 +1,100 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+#moto,#sub,#why {
+    padding: 20px ;
+
+}
+body{
+    color:hsl(204, 43%, 93%);
+    font-size: 16px;
+    background-color: aliceblue;
+}
+
+#main{
+    margin: 10% auto;
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 420px;
+
+    box-shadow: 1px 1px 20px 1px rgba(128, 128, 128, 0.54) ;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#moto{
+    /* border: 1px solid red; */
+    height: 44%;
+    background-color: white;
+}
+
+#bc{
+    display: flex;
+    height: 56%;
+}
+
+#sub {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    /* border: 1px solid blue; */
+
+}
+#why{
+    /* border: 1px solid green; */
+    background-color: hsl(179, 57%, 48%);
+    width: 50%;
+}
+
+
+
+
+#moto > h2 {
+    color:hsl(179, 62%, 43%)
+}
+#moto > h3{
+    color:hsl(71, 73%, 54%)
+}
+#moto > p{
+    color:hsl(218, 22%, 67%);
+}
+
+#bt{
+    background-color: hsl(71, 73%, 54%);
+    border: transparent;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-size: large;
+    font-weight: 700;
+    color: aliceblue;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.207);
+}
+
+#bt:hover{
+    background-color: hsl(71, 100%, 68%);
+    color: rgba(128, 128, 128, 0.744);
+    cursor: pointer;
+}
+
+.f2{
+    font-weight:900;
+    font-size: 1.4rem;
+    padding-right:7px ;
+    line-height: 20px;
+}
+#f1{
+    font-size: small;
+    font-style: oblique;
+    color: rgba(240, 248, 255, 0.634);
+}
+
+ul{
+    padding: 1px;
+    list-style: none;
+}

@@ -1,0 +1,28 @@
+@media (max-width:567px) {
+    
+
+div{
+    display: block;
+}
+
+#main{
+    width: 95%;
+    height: auto;
+}
+
+#moto{
+    /* background-color: green; */
+    height: auto;
+}
+#bc{
+    display:contents;
+}
+#sub ,#why{
+    width: auto;
+}
+
+#bt{
+    height:0%;
+}
+
+}
